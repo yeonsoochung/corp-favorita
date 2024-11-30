@@ -16,7 +16,7 @@ Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecast
 The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
 
 <p align="center">
-<img src="images/dashboard1.PNG" alt="Alt text" width="600"/>
+<img src="images/dashboard1.PNG" alt="Alt text" width="800"/>
 </p>
 
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
@@ -54,5 +54,5 @@ Overall trends demonstrate that the lower the price of oil, the higher the unit 
 After importing my tables/view to Power BI, my data model looks like below:
 
 <p align="center">
-<img src="images/datamodel1.PNG" alt="Alt text" width="600"/>
+<img src="images/datamodel1.PNG" alt="Alt text" width="800"/>
 </p>

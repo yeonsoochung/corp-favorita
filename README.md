@@ -1,6 +1,6 @@
 # Corporación Favorita: Analysis of on-promo sales at a large Ecuadorian grocery chain.
 
-Corporación Favorita provided sales data ranging from 2013 to 2017. The data includes information on stores, items, number of units sold, number of items sold on promo, number of transactions at specifc store/date combos (but no transaction data at the itemized level), and oil prices, which have a significant impact on Ecuador's economy. The "On Promotion" data is given as True/False, and I filtered out its null values, which truncated the data set's date range to Apr. 2014 - Aug. 2017.
+Corporación Favorita provided sales data ranging from 2013 to 2017. The data includes information on stores, items, number of units sold, items sold on promo, number of transactions at specific store/date pairs (no transaction data at the itemized level), and oil prices, which have a significant impact on Ecuador's economy. The "On Promotion" data is given as True/False, and I filtered out its null values, which truncated the data set's date range to Apr. 2014 - Aug. 2017.
 
 In this project, I analyzed the data pertaining to items sold on promo. I developed a Power BI dashboard that enables the user to view units sold over time and % of units sold on-promo over time. The dashboard's interactive features allow the user to analyze these trends based on item category, location, different time granularities, and comparing with oil prices.
 
@@ -12,7 +12,7 @@ Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecast
 
 ## Summary of Findings
 
-The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
+The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at lower prices than 2014 levels.
 
 <p align="center">
 <img src="images/dashboard1.PNG" alt="Alt text" width="1000"/>
@@ -20,7 +20,7 @@ The total number of units sold across all stores averaged at about 400,000 units
 
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 
-**School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (unsurprisingly, SOS sales spike at certain points of the year). During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories. The rest of this section summarizes the trends in the next top categories based on overall % units sold on-promo.
+**School and Office Supplies (SOS)** have the highest % units sold on promo across the entire data set, driven by their sales in Q2 and Q3 over the years (unsurprisingly, SOS sales spike at certain points of the year during back-to-school season). During Q1, Meats, Produce, and Eggs have the highest % units sold on-promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories. The rest of this section summarizes the trends in the next top categories based on overall % units sold on-promo.
 
 **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent. There is a sharp increase at the start and end of the data set, but this could be due to less data being provided at those dates.
 

@@ -5,6 +5,16 @@ Corporación Favorita provided sales data ranging from 2013 to 2017. The data in
 
 In this project, I analyzed the data pertaining to items sold on promo. I developed a Power BI dashboard that enables the user to view units sold over time and % of units sold on-promo over time. The dashboard's interactive features allow the user to analyze these trends based on item category, location, different time granularities, and comparing with oil prices.
 
+I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. There was one processing step where I imputed missing values in the oil prices data table with the average of the nearest available values, and I decided that Pandas was the best tool to perform this.
+
 Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data
 
-## 
+## Data Processing Steps and Data Model
+
+
+
+
+
+<p align="center">
+<img src="images/ca-stores-rev.PNG" alt="Alt text" width="600"/>
+</p>

@@ -9,7 +9,7 @@ I chose DuckDB as my database because, with Python, I was able to run SQL querie
 
 Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data
 
-## Executive Summary
+## Summary of Findings
 
 The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
 

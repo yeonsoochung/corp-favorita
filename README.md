@@ -7,11 +7,17 @@ In this project, I analyzed the data pertaining to items sold on promo. I develo
 
 I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. One of my processing stages involved imputing missing values in the oil prices data table with the average of the nearest available values (nearest based on dates), and I decided that Pandas was the best tool to perform this.
 
+DAX queries were implemented in Power BI to create aggregate measures or metrics.
+
 Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data
 
 ## Summary of Findings
 
 The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
+
+<p align="center">
+<img src="images/dashboard1.PNG" alt="Alt text" width="600"/>
+</p>
 
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 
@@ -48,5 +54,5 @@ Overall trends demonstrate that the lower the price of oil, the higher the unit 
 After importing my tables/view to Power BI, my data model looks like below:
 
 <p align="center">
-<img src="images/ca-stores-rev.PNG" alt="Alt text" width="600"/>
+<img src="images/datamodel1.PNG" alt="Alt text" width="600"/>
 </p>

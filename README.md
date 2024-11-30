@@ -1,5 +1,4 @@
-# Corporación Favorita
-## Analysis of on-promo sales at a large Ecuadorian grocery chain.
+# Corporación Favorita: Analysis of on-promo sales at a large Ecuadorian grocery chain.
 
 Corporación Favorita provided sales data ranging from 2013 to 2017. The data includes information on stores, items, number of units sold, number of items sold on promo, number of transactions at specifc store/date combos (but no transaction data at the itemized level), and oil prices, which have a significant impact on Ecuador's economy. The "On Promotion" data is given as True/False, and I filtered out its null values, which truncated the data set's date range to Apr. 2014 - Aug. 2017.
 

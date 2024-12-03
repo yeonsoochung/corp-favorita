@@ -29,7 +29,7 @@ Trends of unit sales at the state level generally mirrored the overall trend. Th
 - **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories.
 
 <p align="center">
-<img src="images/sos.PNG" alt="Alt text" width="1000"/>
+<img src="images/sos.PNG" alt="Alt text" width="600"/>
 </p>
 
 - **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent. There are sharp increases at the start and end of the data set, but this could partly be due to less data being provided at those dates.

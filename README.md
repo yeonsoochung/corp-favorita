@@ -29,31 +29,31 @@ Trends of unit sales at the state level generally mirrored the overall trend. Th
 - **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories.
 
 <p align="center">
-<img src="images/sos.PNG" alt="Alt text" width="700"/>
+<img src="images/sos.PNG" alt="Alt text" width="800"/>
 </p>
 
 - **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent. There are sharp increases at the start and end of the data set, but this could partly be due to less data being provided at those dates.
 
 <p align="center">
-<img src="images/meats.PNG" alt="Alt text" width="1000"/>
+<img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
 - **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. More items must have been promoted to bring sales back up, as oil prices did not climb back to pre-fall 2014 levels.
 
 <p align="center">
-<img src="images/produce.PNG" alt="Alt text" width="1000"/>
+<img src="images/produce.PNG" alt="Alt text" width="800"/>
 </p>
 
 - **Eggs:** There is a visually discernible correlation between egg sales and oil prices, as well as between % units of eggs sold on-promo and oil prices, starting from Oct. 2014. There are sharp spikes at Oct.-Dec. 2016 and at May/June 2017. Unlike the general trend seen in the overall data, egg sales have a more direct correlation with oil prices.
 
 <p align="center">
-<img src="images/eggs.PNG" alt="Alt text" width="1000"/>
+<img src="images/eggs.PNG" alt="Alt text" width="800"/>
 </p>
 
 - **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales as oil prices remained at low level, indicating promotional reactions to oil prices. % units sold on-promo also increased but with about a 6-month lag compared to units sold. The lag includes an initial spike at June 2015, which coincides with a brief rise in oil prices after its steep drop from pre-fall 2014 levels. 
 
 <p align="center">
-<img src="images/hk2.PNG" alt="Alt text" width="1000"/>
+<img src="images/hk2.PNG" alt="Alt text" width="800"/>
 </p>
  
 ## ELT Steps and Data Model

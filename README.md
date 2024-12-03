@@ -4,7 +4,7 @@ Corporación Favorita provided sales data ranging from 2013 to 2017. The data in
 
 In this project, I analyzed the data pertaining to items sold on promo. I developed a Power BI dashboard that enables the user to view units sold over time and % of units sold on-promo over time. The dashboard's interactive features allow the user to analyze these trends based on item category, location, different time granularities (month, quarter, and year), and comparing with oil prices. The second page of my dashboard quantifies the visual trends demonstrated in the first page.
 
-I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. One of my processing stages involved imputing missing values in the oil prices data table with the average of the nearest available values (nearest based on dates), and I decided that Pandas was the best tool to perform this.
+I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. One of my processing stages involved imputing missing values in the oil prices data table with the average of the nearest available values (nearest based on dates), and I decided that Pandas was the best tool to perform this with.
 
 DAX queries were implemented in Power BI to create aggregate measures or metrics.
 

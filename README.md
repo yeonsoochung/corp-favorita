@@ -24,7 +24,7 @@ The total number of units sold across all stores averaged at about 400,000 units
 <img src="images/dashboard2.PNG" alt="Alt text" width="1000"/>
 </p>
 
-Note that these line charts can be drilled up/down to aggregate the measures by week, month, and year.
+Note that these line charts can be drilled up/down to aggregate the measures by week, month, and year. The images in this document show the trends aggregated by month.
 
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 

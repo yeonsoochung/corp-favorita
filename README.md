@@ -20,6 +20,10 @@ The total number of units sold across all stores averaged at about 400,000 units
 <img src="images/dashboard1.PNG" alt="Alt text" width="1000"/>
 </p>
 
+<p align="center">
+<img src="images/dashboard2.PNG" alt="Alt text" width="1000"/>
+</p>
+
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 
 Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a dramatic dip in sales between Apr. 2016 and Oct. 2016 (its % unit sales on-promo saw a spike from Jul. 2016 to Nov. 2016). Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.

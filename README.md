@@ -14,7 +14,7 @@ Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecast
 
 I decided to focus on two metrics in this analysis of on-promo sales: units sold and % units sold on-promo. Total unit sales reflect the overall health of the company, and % units sold on-promo indicate the proportion of items on promotion. I am interested in how these two metrics trend over time and with oil prices.
 
-The total number of units sold across all stores averaged at about 400,000 units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 800,000 units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
+The total number of units sold across all stores averaged at about 18MM units from April 2014 to June 2015. After this June 2015, unit sales increased to a higher average of about 24MM units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
 
 <p align="center">
 <img src="images/dashboard1.PNG" alt="Alt text" width="1000"/>
@@ -26,9 +26,9 @@ The total number of units sold across all stores averaged at about 400,000 units
 
 Note that these line charts can be drilled up/down to aggregate the measures by week, month, and year. The images in this document show the trends aggregated by month.
 
-Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
+Overall trends demonstrate that the lower the price of oil, the higher the units sold as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 
-Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a substantial dip in sales between Apr. 2016 and Oct. 2016. By contrast, its % unit sales on-promo saw a spike from Jul. 2016 to Nov. 2016, indicating that customers were particularly focused on purchasing items on promotion during this time period. Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.
+Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a substantial dip in sales between Apr. 2016 and Oct. 2016. By contrast, its % unit sales on-promo saw a spike from Jul. 2016 to Nov. 2016. The overlapping time periods indicate customers were particularly focused on purchasing items on promotion during this time period. Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.
 
 ### Top Selling Items on-Promo
 
@@ -58,7 +58,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 <img src="images/eggs.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was spike in units sold in Oct. 2015, and there were two spikes in % units sold (in June 2015 and Oct. 2015). The spikes suggest items were promoted to boost sales after the oil prices dropped, resulting in higher levels of sales than 2014 (before oil prices fell) to bring back profitability. Increase in these items as well as food items compared to 2014 sales indicate more Ecuadorians were cooking at home.
+- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was a spike in units sold in Oct. 2015, and there were two spikes in % units sold (in June 2015 and Oct. 2015). The spikes suggest items were promoted to boost sales after oil prices dropped, resulting in higher levels of sales than 2014 (before oil prices fell) to bring back profitability. Increase in the sales of these items as well as food items compared to 2014 sales indicate more Ecuadorians were preparing meals at home. It would be interesting to see revenue and profit data for Corporación Favorita as well as item-level pricing data to analyze their promotional strategies.
 
 <p align="center">
 <img src="images/hk2.PNG" alt="Alt text" width="800"/>
@@ -71,7 +71,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 - **ingest_data_to_db.py:** After downloading the data set from Kaggle, I ingest the csv files into the database.
 
 - **impute_oil_table.py:** The raw oil table has columns for dates and oil prices (USD per barrel). Some prices have null values, and there are some dates that are skipped. This script does the following:
-  - Creates a date table for the range of my data set (Apr. 1, 2014 to Aug. 15, 2017).
+  - Creates a date table for the range of my data set (Apr. 1, 2014 to Aug. 15, 2017). This table gets loaded to PBI.
   - Join the table of continuous dates with the oil table.
   - Imputes the null prices with the average of the nearest (in terms of dates) available prices before and after the missing value(s). If there are consecutive missing values, they are all imputed with the same average value. If there are (consecutive) missing values at the beginning of the table, they are imputed with the nearest available value. Likewise for for (consecutive) missing values at the end of the table.
   - The processed oil table is saved as a new table in the database, with renamed columns.
@@ -82,7 +82,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
   - Performed a join operation to add a column for unit sales to the transactions data and created a view with the new table. I ended up not using any transactions data in my dashboard because of the unavailability of detailed information. More insights could be gained if, for example, transactions data at the item or category level were available.
   - Truncated the train table to only include dates for which "onpromotion" data is not null; and converted the "onpromotion" values of True/False to Yes/No.
   - Renamed columns for all tables and views.
-  - I create a view for transactions in order to keep the original transactions table. I kept the other tables as tables because I did not create new columns with them - just made changes like imputations and renaming.
+  - I created a view for transactions in order to keep the original transactions table. I kept the other tables as tables because I did not create new columns with them - just made changes like imputations and renaming.
 
 After importing my tables/view to Power BI, my data model looks like below:
 

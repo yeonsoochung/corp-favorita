@@ -28,11 +28,11 @@ Note that these line charts can be drilled up/down to aggregate the measures by 
 
 Overall trends demonstrate that the lower the price of oil, the higher the unit sales as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
 
-Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a substantial dip in sales between Apr. 2016 and Oct. 2016 (its % unit sales on-promo saw a spike from Jul. 2016 to Nov. 2016). Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.
+Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a substantial dip in sales between Apr. 2016 and Oct. 2016. By contrast, its % unit sales on-promo saw a spike from Jul. 2016 to Nov. 2016, indicating that customers were particularly focused on purchasing items on promotion during this time period. Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.
 
 ### Top Selling Items on-Promo
 
-- **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). The steep drop in oil prices in Q2 of 2015 prompts Ecuadorians to withhold purhcase of SOS items, indicated by the absence of a peak for the April 2015 back-to-school season.
+- **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). The steep drop in oil prices in Q2 of 2015 prompted Ecuadorians to withhold purchase of SOS items, indicated by the absence of a peak for the April 2015 back-to-school season.
 
 <p align="center">
 <img src="images/sos.PNG" alt="Alt text" width="800"/>
@@ -46,7 +46,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 <img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up, as oil prices did not climb back to pre-fall 2014 levels.
+- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up to pre-fall 2014 levels, as oil prices did not climb back to their pre-fall 2014 levels.
 
 <p align="center">
 <img src="images/produce.PNG" alt="Alt text" width="800"/>

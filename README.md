@@ -46,7 +46,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 <img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up to 2014 levels, as oil prices did not climb back to their 2014 levels.
+- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring profits back up, as oil prices did not climb back to their 2014 levels.
 
 <p align="center">
 <img src="images/produce.PNG" alt="Alt text" width="800"/>
@@ -58,7 +58,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 <img src="images/eggs.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was spike in units sold in Oct. 2015, and there were two spikes in % units sold (in June 2015 and Oct. 2015). The spikes suggest items were promoted to boost sales after the oil prices dropped, resulting in higher levels of sales than 2014 (before oil prices fell) to reach 2014-level profits. Increase in these items as well as food items compared to 2014 sales indicate more Ecuadorians were cooking at home.
+- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was spike in units sold in Oct. 2015, and there were two spikes in % units sold (in June 2015 and Oct. 2015). The spikes suggest items were promoted to boost sales after the oil prices dropped, resulting in higher levels of sales than 2014 (before oil prices fell) to bring back profitability. Increase in these items as well as food items compared to 2014 sales indicate more Ecuadorians were cooking at home.
 
 <p align="center">
 <img src="images/hk2.PNG" alt="Alt text" width="800"/>

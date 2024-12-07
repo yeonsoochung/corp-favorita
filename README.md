@@ -32,11 +32,13 @@ Trends of unit sales at the state level generally mirrored the overall trend. Th
 
 ### Top Selling Items on-Promo
 
-- **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories.
+- **School and Office Supplies (SOS)** sell at the highest percentage of units on promo overall (i.e., entire data set), driven by their sales in Q2 and Q3 over every year in the data set (In Ecuador, schools in the coastal regions start the school year in April, and those in the Andean regions start in September). The steep drop in oil prices in Q2 of 2015 prompts Ecuadorians to withhold purhcase of SOS items, indicated by the absence of a peak for the April 2015 back-to-school season.
 
 <p align="center">
 <img src="images/sos.PNG" alt="Alt text" width="800"/>
 </p>
+
+During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories.
 
 - **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent. There are sharp increases at the start and end of the data set, but this could partly be due to less data being provided at those dates.
 
@@ -44,19 +46,21 @@ Trends of unit sales at the state level generally mirrored the overall trend. Th
 <img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. More items must have been promoted to bring sales back up, as oil prices did not climb back to pre-fall 2014 levels.
+- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up, as oil prices did not climb back to pre-fall 2014 levels.
 
 <p align="center">
 <img src="images/produce.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Eggs:** There is a visually discernible correlation between egg sales and oil prices, as well as between % units of eggs sold on-promo and oil prices, starting from Oct. 2014. There are sharp spikes at Oct.-Dec. 2016 and at May/June 2017. Unlike the general trend seen in the overall data, egg sales have a more direct correlation with oil prices.
+- **Eggs:** There is a visually discernible correlation between egg sales and oil prices, as well as between % units of eggs sold on-promo and oil prices, starting from Oct. 2014. There are sharp spikes at Oct.-Dec. 2016 and at May/June 2017. Unlike the general trend seen in the overall data, egg sales have a more direct correlation with oil prices. Overall, more eggs were purchased after oil prices decreased, indicating a larger incorporation of eggs into the meals of Ecuadorian homes as a form of austerity.
 
 <p align="center">
 <img src="images/eggs.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales as oil prices remained at low level, indicating promotional reactions to oil prices. % units sold on-promo also increased but with about a 6-month lag compared to units sold. The lag includes an initial spike at June 2015, which coincides with a brief rise in oil prices after its steep drop from pre-fall 2014 levels. 
+- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was a spike in % units sold in June 2015 and a spike in units sold in Oct. 2015. The 2015 spike in % units sold suggests items were promoted to boost sales after the oil prices dropped and rose slightly. Oil prices decreased some more after June 2015, and unit sales and sales on-promo increased substantially - by 110% (43,258 to 91,028 units) and 116772% (29 to 33,893 units), respectively. This indicates more home and kitchen items being promoted, and perhaps Ecuadorians were deciding to cook at home more after oil prices remained low for close to year. I would love to see more detailed data on item sales to learn more about this.
+-
+- , indicating promotional reactions to oil prices. % units sold on-promo also increased but with about a 6-month lag compared to units sold. The lag includes an initial spike at June 2015, which coincides with a brief rise in oil prices after its steep drop from pre-fall 2014 levels. These items are obviously less of a necessity than food items, so the lag suggests civilians restraining from purchasing home and kitchen items for six months
 
 <p align="center">
 <img src="images/hk2.PNG" alt="Alt text" width="800"/>

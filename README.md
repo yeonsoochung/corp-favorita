@@ -82,7 +82,7 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
   - Performed a join operation to add a column for unit sales to the transactions data and created a view with the new table. I ended up not using any transactions data in my dashboard because of the unavailability of detailed information. More insights could be gained if, for example, transactions data at the item or category level were available.
   - Truncated the train table to only include dates for which "onpromotion" data is not null; and converted the "onpromotion" values of True/False to Yes/No.
   - Renamed columns for all tables and views.
-  - I created a view for transactions in order to keep the original transactions table. I kept the other tables as tables because I did not create new columns with them - just made changes like imputations and renaming.
+  - I created a view for transactions in order to keep the original transactions table. For this project, since my tables are static, I exported tables and views to csv's before loading to PBI. In general, if I applied any processing steps beyond just renaming columns, I created a view of the processed data table.
 
 After importing my tables/view to Power BI, my data model looks like below:
 

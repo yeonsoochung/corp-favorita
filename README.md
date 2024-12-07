@@ -40,7 +40,7 @@ Trends of unit sales at the state level generally mirrored the overall trend. Th
 
 During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales from items on promo. In Q4, the leading categories are Produce, Eggs, and “Home and Kitchen II”. There is some variation at the state level, but in most states, SOS items top the list followed by food-based categories.
 
-- **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent.
+- **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent, except at the end of the data set.
 
 <p align="center">
 <img src="images/meats.PNG" alt="Alt text" width="800"/>

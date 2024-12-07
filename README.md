@@ -46,21 +46,19 @@ During Q1, Meats, Produce, and Eggs have the highest percentage of unit sales fr
 <img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up to pre-fall 2014 levels, as oil prices did not climb back to their pre-fall 2014 levels.
+- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring sales back up to 2014 levels, as oil prices did not climb back to their 2014 levels.
 
 <p align="center">
 <img src="images/produce.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Eggs:** There is a visually discernible correlation between egg sales and oil prices, as well as between % units of eggs sold on-promo and oil prices, starting from Oct. 2014. There are sharp spikes at Oct.-Dec. 2016 and at May/June 2017. Unlike the general trend seen in the overall data, egg sales have a more direct correlation with oil prices. Overall, more eggs were purchased after oil prices decreased, indicating a larger incorporation of eggs into the meals of Ecuadorian homes as a form of austerity.
+- **Eggs:** There is a visually discernible correlation between egg sales and oil prices, as well as between % units of eggs sold on-promo and oil prices, starting from Oct. 2014. There are sharp spikes at Oct.-Dec. 2016 and at May/June 2017, part of an overall increase in egg sales (total and on-promo) compared to Jan. 2015-Jan. 2016, despite oil prices being consistently low throughout. This indicates increased promotional sales of eggs after Sep. 2016 and suggests a larger incorporation of eggs into the meals of Ecuadorian homes as a form of austerity.
 
 <p align="center">
 <img src="images/eggs.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was a spike in % units sold in June 2015 and a spike in units sold in Oct. 2015. The 2015 spike in % units sold suggests items were promoted to boost sales after the oil prices dropped and rose slightly. Oil prices decreased some more after June 2015, and unit sales and sales on-promo increased substantially - by 110% (43,258 to 91,028 units) and 116772% (29 to 33,893 units), respectively. This indicates more home and kitchen items being promoted, and perhaps Ecuadorians were deciding to cook at home more after oil prices remained low for close to year. I would love to see more detailed data on item sales to learn more about this.
--
-- , indicating promotional reactions to oil prices. % units sold on-promo also increased but with about a 6-month lag compared to units sold. The lag includes an initial spike at June 2015, which coincides with a brief rise in oil prices after its steep drop from pre-fall 2014 levels. These items are obviously less of a necessity than food items, so the lag suggests civilians restraining from purchasing home and kitchen items for six months
+- **Home and Kitchen II:** Unit sales generally increased as oil prices decreased after Jan. 2015, followed by stability in sales after Jan. 2016 as oil prices remained at low levels. Before 2016, however, there was spike in units sold in Oct. 2015, and there were two spikes in % units sold (in June 2015 and Oct. 2015). The spikes suggest items were promoted to boost sales after the oil prices dropped, resulting in higher levels of sales than 2014 (before oil prices fell) to reach 2014-level profits. Increase in these items as well as food items compared to 2014 sales indicate more Ecuadorians were cooking at home.
 
 <p align="center">
 <img src="images/hk2.PNG" alt="Alt text" width="800"/>

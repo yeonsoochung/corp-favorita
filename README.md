@@ -8,6 +8,8 @@ I chose DuckDB as my database because, with Python, I was able to run SQL querie
 
 DAX queries were implemented in Power BI to create aggregate measures or metrics.
 
+My Power BI report can be viewed here: https://app.powerbi.com/view?r=eyJrIjoiYjA3ZjBlZmUtMTg4YS00ZDcyLWEwYWMtMDgxNWU5YTE1N2VjIiwidCI6ImJlMjI4MDdiLTI1OTEtNDBkNy1iYmI2LTBkYTg0ZDMxYWNmNyIsImMiOjN9
+
 Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data
 
 ## Summary of Findings

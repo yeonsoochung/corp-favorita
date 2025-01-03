@@ -50,7 +50,7 @@ During Q1, "Home and Kitchen II", Meats, Produce, and Eggs have the highest perc
 <img src="images/hk2.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Meats:** Overall, unit sales of meat products increased steadily over the data set’s time frame. However, their % units sold on-promo stayed mostly consistent, except at the end of the data set.
+- **Meats:** Unit sales of meat products decreased when oil prices fell in Fall 2014, but increased to relative stability in the middle of 2015.  % units sold on-promo stayed mostly consistent, except at the start of the data set.
 
 <p align="center">
 <img src="images/meats.PNG" alt="Alt text" width="800"/>

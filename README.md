@@ -75,7 +75,7 @@ During Q1, "Home and Kitchen II", Meats, Produce, and Eggs have the highest perc
 - **ingest_data_to_db.py:** After downloading the data set from Kaggle, I ingest the csv files into the database.
 
 - **impute_oil_table.py:** The raw oil table has columns for dates and oil prices (USD per barrel). Some prices have null values, and there are some dates that are skipped. This script does the following:
-  - Creates a date table for the range of my data set (Apr. 1, 2014 to Aug. 15, 2017). This table gets loaded to PBI.
+  - Creates a date table for the range of my data set (Apr. 1, 2014 to Aug. 15, 2017).
   - Join the table of continuous dates with the oil table.
   - Imputes the null prices with the average of the nearest (in terms of dates) available prices before and after the missing value(s). If there are consecutive missing values, they are all imputed with the same average value. If there are (consecutive) missing values at the beginning of the table, they are imputed with the nearest available value. Likewise for for (consecutive) missing values at the end of the table.
   - The processed oil table is saved as a new table in the database, with renamed columns.
@@ -83,12 +83,14 @@ During Q1, "Home and Kitchen II", Meats, Produce, and Eggs have the highest perc
 - **test_imputer.py:** Performs unit tests on the imputer function in **impute_oil_table.py**.
 
 - **create_data_model.py:** Sets up the rest of the data model:
-  - Performed a join operation to add a column for unit sales to the transactions data and created a view with the new table. I ended up not using any transactions data in my dashboard because of the unavailability of detailed information. More insights could be gained if, for example, transactions data at the item or category level were available.
+  - Performed a join operation to add a column for unit sales to the transactions data and created a view with the new table. I ended up not using any transactions data in my dashboard because of the unavailability of detailed information.
   - Truncated the train table to only include dates for which "onpromotion" data is not null; and converted the "onpromotion" values of True/False to Yes/No.
   - Renamed columns for all tables and views.
-  - I created a view for transactions in order to keep the original transactions table. For this project, since my tables are static, I exported tables and views to csv's before loading to PBI. In general, if I applied any processing steps beyond just renaming columns, I created a view of the processed data table.
+  - I exported the tables and views to csv's before loading to PBI.
 
-After importing my tables/view to Power BI, my data model looks like below:
+I originally planned on importing only views from DuckDB directly to PBI but was unable to set up this connection, and since I was worked on this in parallel with setting up the data model, my exported csv's come from a combination of view and tables.
+
+After loading the exported csv tables to Power BI, my data model looks like below:
 
 <p align="center">
 <img src="images/datamodel1.PNG" alt="Alt text" width="1000"/>

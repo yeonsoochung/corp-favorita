@@ -8,9 +8,9 @@ I chose DuckDB as my database because, with Python, I was able to run SQL querie
 
 DAX queries were implemented in Power BI to create aggregate measures/metrics.
 
-My Power BI report can be viewed here: https://app.powerbi.com/view?r=eyJrIjoiYjA3ZjBlZmUtMTg4YS00ZDcyLWEwYWMtMDgxNWU5YTE1N2VjIiwidCI6ImJlMjI4MDdiLTI1OTEtNDBkNy1iYmI2LTBkYTg0ZDMxYWNmNyIsImMiOjN9
+My Power BI report can be viewed here: https://app.powerbi.com/view?r=eyJrIjoiNzE2ZjdhNzgtZGNlNC00M2JjLThkZDAtNWNmYTllMTc5YWY3IiwidCI6ImJlMjI4MDdiLTI1OTEtNDBkNy1iYmI2LTBkYTg0ZDMxYWNmNyIsImMiOjN9
 
-Its pbix file can be downloaded here: https://drive.google.com/file/d/1jzEJcYnCsVPzPH8_M60Z1OgxVPVRn2Ss
+Its pbix file can be downloaded here: https://drive.google.com/file/d/1S9-MosBAUTBXg1WOZSFuqfAleoYB9QnA
 
 Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting/data
 

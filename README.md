@@ -1,12 +1,12 @@
 # Corporación Favorita: Analysis of On-Promo Sales at a Large Ecuadorian Grocery Chain
 
-Corporación Favorita provided sales data ranging from 2013 to 2017. The data includes information on stores, items, number of units sold, items sold on promo, number of transactions at specific store/date pairs (no transaction data at the itemized level), and oil prices, which have a significant impact on Ecuador's economy. The "On Promotion" data is given as True/False, and I filtered out its null values, which truncated the data set's date range to Apr. 2014 - Aug. 2017. Due to Power BI Service's free-tier limit of 1 GB for publised reports, the data set was furter truncated to includes dates from Apr. 2014 - Jul. 2016.
+Corporación Favorita provided sales data ranging from 2013 to 2017. The data includes information on stores, items, number of units sold, items sold on promo, number of transactions at specific store/date pairs (no transaction data at the itemized level), and oil prices, which have a significant impact on Ecuador's economy. The "On Promotion" data is given as True/False, and I filtered out its null values, which were all in the first year or so of the data set, thus truncating the data set's date range to Apr. 2014 - Aug. 2017. Due to Power BI Service's free-tier limit of 1 GB for publised reports, the data set was furter truncated to a data from of Apr. 2014 - Jul. 2016.
 
 In this project, I analyzed the data pertaining to items sold on promo. I developed a Power BI dashboard that enables the user to view units sold over time and % of units sold on-promo over time. The dashboard's interactive features allow the user to analyze these trends based on item category, location, different time granularities (month, quarter, and year), and comparison with oil prices. The second page of my dashboard quantifies the visual trends displayed in the first page.
 
-I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. One of my processing stages involved imputing missing values in the oil prices data table with the average of the nearest available values (nearest based on dates), and I decided that Pandas was the best tool to perform this with.
+I chose DuckDB as my database because, with Python, I was able to run SQL queries and code in Pandas to transform the data sets and create my data model for Power BI. One of my processing stages involved imputing missing values in the oil prices data table with the average of the nearest available values (nearest based on dates), and I decided that Pandas was the most efficient tool to perform this with.
 
-DAX queries were implemented in Power BI to create aggregate measures or metrics.
+DAX queries were implemented in Power BI to create aggregate measures/metrics.
 
 My Power BI report can be viewed here: https://app.powerbi.com/view?r=eyJrIjoiYjA3ZjBlZmUtMTg4YS00ZDcyLWEwYWMtMDgxNWU5YTE1N2VjIiwidCI6ImJlMjI4MDdiLTI1OTEtNDBkNy1iYmI2LTBkYTg0ZDMxYWNmNyIsImMiOjN9
 
@@ -16,9 +16,9 @@ Data source: https://www.kaggle.com/competitions/favorita-grocery-sales-forecast
 
 ## Summary of Findings
 
-I decided to focus on two metrics in this analysis of on-promo sales: units sold and % units sold on-promo. Total unit sales reflect the overall health of the company, and % units sold on-promo indicate the proportion of items on promotion. I am interested in how these two metrics trend over time and with oil prices.
+I decided to focus on two metrics in this analysis of on-promo sales: units sold and % units sold on-promo. Total unit sales reflect the overall health of the company, and % units sold on-promo indicate the proportion of items on promotion. I am interested in how these two metrics trend over time and how they relate to store locations and oil prices.
 
-The total number of units sold across all stores averaged at about 18MM units from April 2014 to June 2015. After June 2015, unit sales increased to a higher average of about 24MM units. This shift coincides with oil prices decreasing and staying at a lower price range than 2014 levels.
+The total number of units sold across all stores averaged at about 18MM units from April 2014 to June 2015. After June 2015, unit sales increased to a higher average of about 24MM units. This shift coincides with oil prices decreasing and staying at a lower range than 2014 levels.
 
 <p align="center">
 <img src="images/dashboard1.PNG" alt="Alt text" width="1000"/>
@@ -30,7 +30,7 @@ The total number of units sold across all stores averaged at about 18MM units fr
 
 Note that the line charts can be drilled up/down to aggregate the measures by week, month, and year. The images in this README show the trends aggregated by month.
 
-Overall trends demonstrate that the lower the price of oil, the higher the units sold as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items going on promotion and sold as such.
+Overall trends demonstrate that the lower the price of oil, the higher the units sold as well as the share of units sold that were on promo. Ecuador is a petrostate, so if oil prices decrease, then consumers will be less likely to spend money, which is why we see more items sold on promotion.
 
 Trends of unit sales at the state level generally mirrored the overall trend. The state of Santa Elena is an exception due to a substantial dip in sales after Apr. 2016. By contrast, its % unit sales on-promo saw a spike at around June 2016. The overlapping time periods indicate customers were particularly focused on purchasing items on promotion during this time period. Another exception is the trend in % unit sales on-promo in the state of Manabi. In May 2016, 99.92% of units sold were on-promo. This coincides with a major earthquake that occurred in this state on Apr. 16, 2016.
 

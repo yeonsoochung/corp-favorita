@@ -56,7 +56,7 @@ During Q1, "Home and Kitchen II", Meats, Produce, and Eggs have the highest perc
 <img src="images/meats.PNG" alt="Alt text" width="800"/>
 </p>
 
-- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with the necessity of buying produce, more of these items must have been promoted to bring profits back up, as oil prices did not climb back to their 2014 levels.
+- **Produce:** Apart from an initial low and two sharp dips, unit sales and % units sold on-promo stay relatively consistent throughout the data set. The second sharp dip, starting at Jan. 2015, lasts for five months and coincides with a slide in oil prices that stabilize in those five months. Along with consumers' necessity of buying produce, more of these items must have been promoted to bring profits back up, as oil prices did not climb back to their 2014 levels.
 
 <p align="center">
 <img src="images/produce.PNG" alt="Alt text" width="800"/>

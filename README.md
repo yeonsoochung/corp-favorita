@@ -20,7 +20,7 @@ I decided to focus on two metrics in this analysis of on-promo sales: units sold
 
 The total number of units sold across all stores averaged at about 18MM units from April 2014 to June 2015. After June 2015, unit sales increased to a higher average of about 24MM units. This shift coincides with oil prices decreasing and staying at a lower range than 2014 levels.
 
-From May - Sep. 2014, 14.57% of units sold across all stores were sold on promo. From Oct. 2014 - Jul. 2016, however, when oil prices started to decrease, this proportion is 21.08%.
+From May - Sep. 2014, 14.57% of units sold across all stores were sold on promo. From Oct. 2014 - Jul. 2016, however, when oil prices decreased, this proportion is 21.08%.
 
 <p align="center">
 <img src="images/dashboard1.PNG" alt="Alt text" width="1000"/>
